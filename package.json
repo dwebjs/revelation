@@ -1,0 +1,42 @@
+{
+  "name": "@dwebjs/revelation",
+  "description": "Library for finding peers on a dWeb-based network.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/dwebjs/revelation/issues"
+  },
+  "dependencies": {
+    "@dwebjs/flock": "dwebjs/flock#master",
+    "@dwebjs/presets": "dwebjs/presets#master",
+    "safe-buffer": "^5.1.2",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "@dwebjs/dappdb": "dwebjs/dappdb#master",
+    "@dwebjs/ddatabase": "dwebjs/ddatabase#master",
+    "@dwebjs/ddrive": "dwebjs/ddrive#master",
+    "dependency-check": "^3.1.0",
+    "random-access-memory": "^3.0.0",
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  },
+  "homepage": "https://dwebs.io",
+  "keywords": [
+    "dweb",
+    "distributed-web",
+    "dweb-revelation"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwebjs/revelation.git"
+  },
+  "scripts": {
+    "test": "standard && dependency-check . && node test.js",
+  }
+}
